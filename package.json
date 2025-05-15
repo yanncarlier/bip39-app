@@ -14,15 +14,21 @@
     "electron-builder": "^26.0.12"
   },
   "build": {
-  "appId": "com.example.myapp",
-  "linux": {
-    "target": ["AppImage"]
-  },
-  "win": {
-    "target": ["nsis"]
-  },
-  "mac": {
-    "target": ["dmg"]
+    "appId": "com.example.myapp",
+    "linux": {
+      "target": [
+        "AppImage"
+      ]
+    },
+    "win": {
+      "target": [
+        "nsis"
+      ]
+    },
+    "mac": {
+      "target": [
+        "dmg"
+      ]
+    }
   }
-}
 }
