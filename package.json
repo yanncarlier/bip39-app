@@ -1,34 +1,18 @@
 {
   "name": "bip39-app",
   "version": "0.5.6",
+  "description": "A BIP39 Application",
   "main": "main.js",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "package": "electron-packager . bip39-wallet --platform=all --arch=all --out=dist --overwrite",
+    "build": "electron-builder --linux"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "",
   "devDependencies": {
     "electron": "^36.2.0",
-    "electron-builder": "^26.0.12"
+    "electron-builder": "^26.0.12",
+    "electron-packager": "^15.0.0"
   },
-  "build": {
-    "appId": "com.example.myapp",
-    "linux": {
-      "target": [
-        "AppImage"
-      ]
-    },
-    "win": {
-      "target": [
-        "nsis"
-      ]
-    },
-    "mac": {
-      "target": [
-        "dmg"
-      ]
-    }
-  }
+  "author": "Your Name",
+  "license": "MIT"
 }
