@@ -21,7 +21,10 @@ Test the Application: Run the app locally to ensure it works:
    bash
 
    ```bash
-   npm start
+   npm i
+   npm start  
+   npm run package  
+   npm run build
    ```
 
 # Package the Application for All Platforms
